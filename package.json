@@ -1,0 +1,17 @@
+{
+  "name": "typescript-webpack-template",
+  "version": "1.0.0",
+  "description": "Default configuration for TypeScript and Webpack for easily starting projects.",
+  "main": "index.js",
+  "scripts": {
+    "build": "npx tsc && npx webpack && node scripts/clean.js"
+  },
+  "keywords": [],
+  "author": "Bruno Ribaric",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^4.0.3",
+    "webpack": "^5.0.0",
+    "webpack-cli": "^4.0.0"
+  }
+}
